@@ -10,3 +10,8 @@ El empleado de beeva se identifica por un identificador unico alfanumerico cuya 
 * ¿Que ocurre sino existe ese usuario?
 * ¿Que ocurre sino cumple el identificador con el patron?
 * ¿Que ocurre si acaba de entrar a la empresa y no ha participado en ningún proyecto?
+
+### Autores
+
+* Daniel Petrovic Galvez - daniel.petrovic@beeva.com
+* Manuel Durán López - manuel.duran@beeva.com
