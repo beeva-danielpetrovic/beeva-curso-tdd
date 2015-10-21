@@ -24,7 +24,7 @@ import com.beeva.tdd.interfaces.IDaoEmployee;
 import com.beeva.tdd.interfaces.IServiceEmployee;
 
 @RunWith(value = MockitoJUnitRunner.class)
-public class BeevaServiceEmployeeTest {
+public class ServiceEmployeeTest {
 
 	private String idEmployee = "11111";
 	
