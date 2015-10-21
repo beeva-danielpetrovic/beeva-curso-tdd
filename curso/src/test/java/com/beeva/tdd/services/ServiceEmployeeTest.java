@@ -37,13 +37,9 @@ public class ServiceEmployeeTest {
 	private IDaoEmployee mockDaoEmployee;
 	
 	@Before
-	public void setUpBeforeClass() throws Exception {
+	public void setUp() throws Exception {
 		
 		serviceEmployee = new ServiceEmployeeImpl(mockDaoEmployee);
-	}
-	
-	@After
-	public void tearDown() throws Exception {
 	}
 
 	@Test
@@ -57,7 +53,7 @@ public class ServiceEmployeeTest {
 		
 		when(mockDaoEmployee.getEmployeeData(anyString())).thenReturn(dataStub);
 		
-		EmployeeDataBO data = serviceEmployee.getEmployeeAndProjects(idEmployee);
+		serviceEmployee.getEmployeeAndProjects(idEmployee);
 		
 		verify(mockDaoEmployee,times(1)).getEmployeeData(idEmployee);
 	}
@@ -73,7 +69,7 @@ public class ServiceEmployeeTest {
 		
 		expectedException.expect(Exception.class);
 		
-		EmployeeDataBO data = serviceEmployee.getEmployeeAndProjects(idEmployee);
+		serviceEmployee.getEmployeeAndProjects(idEmployee);
 		
 		//verify(mockDaoEmployee,times(1)).getEmployeeData(idEmployee);
 	}
