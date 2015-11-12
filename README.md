@@ -4,12 +4,19 @@ La idea práctica del curso es realizar un ejemplo completo mediante la metodolo
 
 ## Enunciado del problema
 
-Queremos hacer un servicio rest que consulte de un empleado de Beeva en cuantos proyectos ha participado.
-El empleado de beeva se identifica por un identificador unico alfanumerico cuya longitud es cinco. El desarrollo debe contener pruebas referentes a:
+Queremos simular el juego de Dardos 501. El juego debe cumplir las siguientes condiciones:
 
-* ¿Que ocurre sino existe ese usuario?
-* ¿Que ocurre sino cumple el identificador con el patron?
-* ¿Que ocurre si acaba de entrar a la empresa y no ha participado en ningún proyecto?
+* El juego se inicia con una puntuación inicial de 501.
+* Todos los numeros de la diana puntuan.
+  * La puntuación puede ser:
+    * Simple
+    * Doble
+    * Triple
+* Inicialmente el turno corresponde al jugador uno de la partica ydebe tener los tres dardos activos por lanzar.
+* Una vez lanzados los tres dardos por el jugador uno debe cambiar el turno al jugador dos y tener tres dardos activos por lanzar.
+* Si la puntuación se queda en 1 se debe incrementar el turno, activar tres dardos más y volver a la puntuación anterior al ultimo lanzamiento.
+* Si la puntuación restante se queda en negativo al dar a un numero mayor se debe incrementar el turno, activar tres dardos más y volver a la puntuación anterior al ultimo lanzamiento.
+* Para cerrar el juego se debe cerrar la puntuación restante con un doble.
 
 ### Autores
 
