@@ -3,6 +3,3 @@
 /.settings/
 .project
 .classpath
-*.iml
-*.war
-/.idea/
