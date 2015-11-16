@@ -18,8 +18,8 @@ Queremos simular el juego de Dardos 501. El juego debe cumplir las siguientes co
     * Triple
 * Inicialmente el turno de la partida empieza por uno y deben estar los tres dardos activos.
 * Una vez lanzados los tres dardos en un turno, debe incrementarse el turno y actiar de nuevo los tres dardos.
-* Si la puntuación restante llegara a uno se debe incrementar el turno, activar tres dardos y volver a la puntuación antes del comienzo del turno.
-* Si la puntuación restante se queda en negativo al superar la puntuación restante se debe incrementar el turno, activar tres dardos más y volver a la puntuación antes del comienzo del turno.
+* Si la puntuación restante llegara a uno se debe incrementar el turno, activar los tres dardos y volver a la puntuación anterior al turno.
+* Si la puntuación quedara en negativo al superar la puntuación restante se debe incrementar el turno, activar tres dardos y volver a la puntuación anterior al turno.
 * Para cerrar el juego se debe cerrar la puntuación restante con un doble. Entonces la partida quedará finalizada, el turno empezará en uno y se activaran los tres dardos para el comienzo de otra partida.
 
 ### Autores
