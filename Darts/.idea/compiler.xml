@@ -25,5 +25,8 @@
         <module name="Darts" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Darts" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
