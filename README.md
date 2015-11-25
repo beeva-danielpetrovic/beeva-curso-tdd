@@ -26,3 +26,7 @@ Queremos simular el juego de Dardos 501. El juego debe cumplir las siguientes co
 
 * Daniel Petrovic Galvez - daniel.petrovic@beeva.com
 * Manuel Durán López - manuel.duran@beeva.com
+
+### Vídeo
+
+[Práctica Darts](https://drive.google.com/a/beeva.com/file/d/0B1joOb8Uxlk_dzJuMTN1Sld2T28/view)
